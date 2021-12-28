@@ -40,10 +40,11 @@ public class Casestudy_itime {
 		  if(w1.getText().equals("iTime (Time Sheet Management System)"))
 		  {
 			  w1.click();
-		      break;
+			  System.out.println("Successfully tested timesheet");
+		          break;
 		  }
 	  }
-	  System.out.println("Successfully tested timesheet");
+	  
 	  
 		/*
 		 * TimeSheet.getTime(w).sendKeys("9"); Actions a = new Actions(w);
